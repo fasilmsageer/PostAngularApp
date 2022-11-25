@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { AddpostComponent } from './addpost/addpost.component';
 import { ViewpostComponent } from './viewpost/viewpost.component';
 import { RouterModule } from '@angular/router';
+import { NavbarComponent } from './navbar/navbar.component';
 
 const myRoute=[
   {
@@ -22,7 +23,8 @@ const myRoute=[
   declarations: [
     AppComponent,
     AddpostComponent,
-    ViewpostComponent
+    ViewpostComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
